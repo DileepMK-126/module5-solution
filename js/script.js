@@ -14,6 +14,7 @@ function showLoading(selector) {
 
 document.addEventListener("DOMContentLoaded", function () {
   showLoading("#main-content");
+
   $ajaxUtils.sendGetRequest(homeHtmlUrl, function (responseText) {
     insertHtml("#main-content", responseText);
   }, false);
