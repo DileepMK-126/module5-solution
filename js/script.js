@@ -2,7 +2,7 @@
 
 var dc = {};
 var homeHtmlUrl = "snippets/home-snippet.html";
-var allCategoriesUrl = "https://davids-restaurant.herokuapp.com/categories.json";
+var allCategoriesUrl = "https://coursera-jhu-default-rtdb.firebaseio.com/categories.json";
 
 function insertHtml(selector, html) {
   document.querySelector(selector).innerHTML = html;
